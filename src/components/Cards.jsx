@@ -10,13 +10,13 @@ const Cards = () => {
         <Card key = {project.id} {...project}></Card>
       )
     })}
-    </div>
     <style jsx>
       {`div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 2rem;
       }
       
       @media screen and (min-width: 768px) {
@@ -27,9 +27,9 @@ const Cards = () => {
         }
       }`}
       </style>
+    </div>
     </>
   )
 }
 
-export default Cards;
-
+export default Cards

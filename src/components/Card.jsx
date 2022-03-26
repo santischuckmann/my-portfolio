@@ -1,79 +1,49 @@
-import React from 'react';
-import { useState } from 'react';
+import React from 'react'
 
-const Card = ({title, image, stack, sourceCode, liveView, explanation}) => {
-  const [show, setShow] = useState(false)
+const Card = ({title, image, stack, sourceCode, liveView}) => {
   return (
-    <>
-    <div className='contenedor'>
+    <div className='card'>
       <h4>{title}</h4>
-      <img className = "img" src= {image} alt= ""/>
+      <img src= {image} alt= ""/>
       <ul>
         {stack.map((each) => {
           return (
-            <li key = {each.id}>{each}</li>
+            <li key = {each.id}>{each.tec}</li>
           )
         })}
       </ul>
-      <div className='botones'>
-      <button onClick={() => setShow(!show)}>Under the hood process</button>
+      <div className='button'>
       <button href = {sourceCode}>Source code</button>
       <button href = {liveView}>Live view</button>
-      </div>
-      {show && <p>{explanation}</p>}
     </div>
     <style jsx>
-      {`.contenedor {
+      {`
+      .card {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        border: 2px dashed #292979;
-        border-radius: 10px;
-        color: #bbb;
-        margin: 1rem;
-        width: 35rem;
-        min-height: 50rem;
-        max-height: 70rem;
-      
+        gap: 1rem;
+        width: 80vw;
+        heigth: 50rem;
+      }      
+      img {
+        height: 20rem;
+        width: 20rem;
       }
       h4 {
-        font-size: 2rem;
-        flex: 1;
-        margin: 1rem 2rem;
-        text-align: center;
+        margin: 0;
       }
-      ul {
-        list-decoration: none;
-        font-size: 1.8rem;
-        font-weight: 600;
-        padding: 0;
-        margin: 1rem 0 1rem 0;
-        text-align: center;
-      }
-      ul li {
-        list-style: none;
-        
-      }
-      .botones {
+      .button {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        margin: 2rem 1rem;
-        gap: 1rem;
+        width: 100%;
+        gap: 3rem;
       }
-      button {
-        background: transparent;
-        border: .6px solid #fff;
-        color: #eee;
-        font-size: 1.4rem;
-        max-width: content;
-        font-weigth: 400;
-        padding: 0.5rem;
+      `
       }
-      `}
-      </style>
-    </>
+    </style>
+    </div>
   )
 }
 

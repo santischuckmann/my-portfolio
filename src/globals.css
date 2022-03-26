@@ -1,11 +1,14 @@
 html,
 body {
+
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 62.5%;
-  background-color: #0f0f46;
+  --main-color: #d8d8e0;
+  --font-color: #1d1d1f;
+  background-color: var(--main-color);
 }
 
 button {
@@ -16,6 +19,12 @@ button {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 * {
