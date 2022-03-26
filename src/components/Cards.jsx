@@ -10,6 +10,7 @@ const Cards = () => {
         <Card key = {project.id} {...project}></Card>
       )
     })}
+    </div>
     <style jsx>
       {`div {
         display: flex;
@@ -17,17 +18,9 @@ const Cards = () => {
         justify-content: center;
         align-items: center;
         gap: 2rem;
-      }
-      
-      @media screen and (min-width: 768px) {
-        div {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        }
       }`}
       </style>
-    </div>
+    
     </>
   )
 }

@@ -5,6 +5,7 @@ function Footer() {
     <>
       <footer>
         <h5>Designed &amp; built by Santiago Schuckmann</h5>
+        <span>(Still in progress)</span>
         <span>For business inquiries <a href='mailto:schuckmannsantaigo@gmail.com'>@schuckmannsantiago@gmail.com</a></span>
       </footer>
       <style jsx>
@@ -15,11 +16,11 @@ function Footer() {
           justify-content: center;
           align-items: center;
           width: 100%; 
-          background: #616172;
+          background: var(--secondary-color);
           font-size: 1.5rem;
           heigth: 20vh;
           padding: 1rem;
-          color: #ccc;
+          color: var(--main-color);
         }
         span {
           width: 70%;

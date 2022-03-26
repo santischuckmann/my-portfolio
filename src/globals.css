@@ -8,6 +8,7 @@ body {
   font-size: 62.5%;
   --main-color: #d8d8e0;
   --font-color: #1d1d1f;
+  --secondary-color: #555559;
   background-color: var(--main-color);
 }
 
