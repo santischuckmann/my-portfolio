@@ -1,4 +1,4 @@
-import { projects } from './projects'
+import { projects } from './utils/projects'
 import Card from './Card'
 
 const Cards = () => {
