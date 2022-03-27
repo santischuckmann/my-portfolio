@@ -4,7 +4,7 @@ const Card = ({title, image, stack, sourceCode, liveView}) => {
   return (
     <div className='card'>
       <h4>{title}</h4>
-      <img src= {image} alt= ""/>
+      <img src = {process.env.PUBLIC_URL + image} alt= ""/>
       <ul>
         {stack.map((each) => {
           return (
