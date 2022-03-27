@@ -20,7 +20,7 @@ const TechSection = () => {
         <li>Express</li>
         <li>MongoDB</li>
       </ul>
-      <span>Is not so difficult to see that what I want, what I need is a... to become a Full Stack Developer in JavaScript.</span>
+      <span className = "span">Is not so difficult to see that what I want, what I need is a... to become a <b>Full Stack Developer</b> in JavaScript.</span>
     </section>
     <style jsx>
       {`
@@ -29,15 +29,18 @@ const TechSection = () => {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        justify-content: center
+        justify-content: center;
+        gap: 2rem;
       }
-      h4 {
-        border: 1px solid var(--secondary-color)
+
+      h3 {
+        margin: 0;
       }
-      span {
+      
+      .span {
         font-size: 2rem;
-        text-align: left;
-      }`}
+      }
+     `}
     </style>
     </>
   )

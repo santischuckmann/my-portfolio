@@ -1,6 +1,7 @@
 import React from 'react'
 import { BsFillArrowDownCircleFill } from '../../node_modules/react-icons/bs'
 import Cards from './Cards'
+import TechSection from './TechSection'
 
 const Body = () => {
   return (
@@ -15,6 +16,7 @@ const Body = () => {
       <h3>What about me?</h3>
       <p> Summing it up, I am a computer science student aiming to be a web developer by learning and practicing as a self-taught programmer. I live in Buenos Aires, Argentina. I speak fluent English. </p> 
     </section>
+    <TechSection />
     <h2>✨ These are my projects ✨</h2>
     <Cards />
     </div>
