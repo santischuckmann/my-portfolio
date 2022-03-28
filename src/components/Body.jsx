@@ -17,8 +17,8 @@ const Body = () => {
       <p> Summing it up, I am a computer science student aiming to be a web developer by learning and practicing as a self-taught programmer. I live in Buenos Aires, Argentina. I speak fluent English. </p> 
     </section>
     <TechSection />
-    <h2>✨ These are my projects ✨</h2>
-    <Cards />
+    <h2 id = "projects">✨ These are my projects ✨</h2>
+    <Cards  />
     </div>
     <style jsx>
       {`

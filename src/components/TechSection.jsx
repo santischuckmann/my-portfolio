@@ -20,7 +20,7 @@ const TechSection = () => {
         <li>Express</li>
         <li>MongoDB</li>
       </ul>
-      <span className = "span">Is not so difficult to see that what I want, what I need is a... to become a <b>Full Stack Developer</b> in JavaScript.</span>
+      <span className = "span">Is not so difficult to see that what I want, what I need is... to become a <b>Full Stack Developer</b> in JavaScript.</span>
     </section>
     <style jsx>
       {`

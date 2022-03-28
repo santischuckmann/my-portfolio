@@ -40,6 +40,17 @@ const Card = ({title, image, stack, sourceCode, liveView}) => {
         width: 100%;
         gap: 3rem;
       }
+
+      button {
+        border: none;
+        background-color: var(--main-color);
+        color: var(--font-color);
+        border-radius: 10%;
+        font-size: 1.5rem;
+        padding: 0.8rem;
+        font-weight: 500;
+        outline: 0.5px solid var(--font-color);
+      }
       `
       }
     </style>

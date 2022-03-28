@@ -6,7 +6,7 @@ function Footer() {
       <footer>
         <h5>Designed &amp; built by Santiago Schuckmann</h5>
         <span>(Still in progress)</span>
-        <span>For business inquiries <a href='mailto:schuckmannsantaigo@gmail.com'>@schuckmannsantiago@gmail.com</a></span>
+        <span>For business inquiries <a href='mailto:schuckmannsantiago@gmail.com'>@schuckmannsantiago@gmail.com</a></span>
       </footer>
       <style jsx>
         {`

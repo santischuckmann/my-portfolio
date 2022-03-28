@@ -1,5 +1,7 @@
 import React from "react";
 import { FaGithub } from '../../node_modules/react-icons/fa'
+import { FaLinkedin } from "../../node_modules/react-icons/fa";
+
 
 const Navbar = () => {
   return (
@@ -7,7 +9,8 @@ const Navbar = () => {
     <header>
         <a href="">Projects</a>
         <a href="">Contact</a>
-        <a href=""><FaGithub /></a>
+        <a href="https://github.com/santischuckmann"><FaGithub /></a>
+        <a href = "https://www.linkedin.com/in/santiago-schuckmann-33183620a"><FaLinkedin /></a>
     </header>
     <style jsx>
       {`
