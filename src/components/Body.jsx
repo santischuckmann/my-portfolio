@@ -12,7 +12,7 @@ const Body = () => {
       <h1>Santiago Schuckmann</h1>
       <BsFillArrowRightCircleFill className = "arrowRight"/>
       </div>
-      <p>A 19 year-old front end developer passionate about this things and those other things. Take my hand and join me in this adventure.</p>
+      <p>A 19 year-old front end developer passionate about the evolution of the tech industry and facing challenges which ultimately leads to solutions.</p>
       <BsFillArrowDownCircleFill className = "arrowDown"/>
     </main>
     <section className='me'>
