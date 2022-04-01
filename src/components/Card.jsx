@@ -13,8 +13,8 @@ const Card = ({title, image, stack, sourceCode, liveView}) => {
         })}
       </ul>
       <div className='button'>
-      <button href = {sourceCode}>Source code</button>
-      <button href = {liveView}>Live view</button>
+      <button><a href={sourceCode}>Source code</a></button>
+      <button><a target= "_blank" href={liveView}>Live view</a></button>
     </div>
     <style jsx>
       {`
