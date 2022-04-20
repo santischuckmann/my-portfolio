@@ -8,10 +8,9 @@ const Navbar = () => {
   return (
     <>
     <header>
-        <a href=""></a>
-        <a href="https://github.com/santischuckmann/my-portfolio">This code <FaLaptopCode /></a>
-        <a href="https://github.com/santischuckmann"><FaGithub /></a>
-        <a href = "https://www.linkedin.com/in/santiago-schuckmann-33183620a"><FaLinkedin /></a>
+        <a href="https://github.com/santischuckmann" target="_blank" rel= "noreferrer"><FaGithub /></a>
+        <a href = "https://www.linkedin.com/in/santiago-schuckmann-33183620a"  target="_blank" rel= "noreferrer"><FaLinkedin /></a>
+        <a href="https://github.com/santischuckmann/my-portfolio" target="_blank" rel= "noreferrer"><FaLaptopCode /></a>
     </header>
     <style jsx>
       {`

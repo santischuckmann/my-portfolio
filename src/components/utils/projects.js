@@ -1,6 +1,24 @@
 export const projects = [
   {
     id: 1,
+    title: "Building my first Full Stack App",
+    image: "/crudrestproject.png",
+    stack : 
+     [
+      {id: 1, tec: "Node.js"},
+      {id: 2, tec: "Express.js"},
+      {id: 3, tec: "MySQL"},
+      {id: 4, tec: "Sequelize"},
+      {id: 4, tec: "React.js"},
+      {id: 3, tec: "JavaScript"},
+      {id: 5, tec: "CSS"},
+      {id: 6, tec: "HTML"}
+     ]  ,
+    sourceCode: "https://github.com/santischuckmann",
+    liveView: "https://santischuckmann.github.io/consuming-todo-api-with-react/",
+  },
+  {
+    id: 2,
     title: "React App using Tours API",
     image: "/toursproject.png",
     stack : 
@@ -14,7 +32,7 @@ export const projects = [
     liveView: "https://santischuckmann.github.io/tours-api/"
   },
   {
-    id: 2,
+    id: 3,
     title: "COVID API in plain JavaScript",
     image: "/covidapi.png",
     stack : 
@@ -27,7 +45,7 @@ export const projects = [
     liveView: "https://santischuckmann.github.io/covid-api/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Making a videogame with Python",
     image: "/pythongame.png",
     stack : 
@@ -38,22 +56,5 @@ export const projects = [
     sourceCode: "https://github.com/santischuckmann/pythongame/tree/master",
     liveView: "https://github.com/santischuckmann/pythongame/tree/master",
   },
-  {
-    id: 4,
-    title: "Building my own Full Stack App",
-    image: "/crudrestproject.png",
-    stack : 
-     [
-      {id: 1, tec: "Node.js"},
-      {id: 2, tec: "Express.js"},
-      {id: 3, tec: "MySQL"},
-      {id: 4, tec: "Sequelize"},
-      {id: 4, tec: "React"},
-      {id: 3, tec: "JavaScript"},
-      {id: 5, tec: "CSS"},
-      {id: 6, tec: "HTML"}
-     ]  ,
-    sourceCode: "https://github.com/santischuckmann",
-    liveView: "https://santischuckmann.github.io/consuming-todo-api-with-react/",
-  }
+
 ]

@@ -5,7 +5,7 @@ const TechSection = () => {
     <>
     <section className='meTech'>
       <h3>Do I know anything?</h3>
-      <p> Actually, I would say otherwise. My greatest virtue is that i am not able to grasp on the idea of being "totally" skillful at something. Luckily, this haven´t stopped me from building and working on projects, despite knowing I can always learn something new. Being totally honest...</p> 
+      <p className='doI'> Actually, I would say otherwise. My greatest virtue is that i am not able to grasp on the idea of being "totally" skillful at something. Luckily, this haven´t stopped me from building and working on projects, despite knowing I can always learn something new. Being totally honest...</p> 
       <div className = "techStack">
       <h4 className='canDeliver'>I can deliver in this skills </h4> 
       <ul className='techCanDeliver'>
@@ -34,7 +34,10 @@ const TechSection = () => {
         justify-content: center;
         gap: 2rem;
       }
-
+      
+      .doI {
+        width: 95%
+      }
       h3 {
         margin: 0;
       }
