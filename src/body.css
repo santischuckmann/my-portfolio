@@ -1,0 +1,90 @@
+.container {
+  color: var(--font-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  gap: 1rem;
+}
+.container main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.arrowRight {
+  display: none;
+}
+.me {
+  width: 90%;
+}
+.container main h1 {
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin: 0;
+}
+.container h2 {
+  font-size: 2.2rem;
+}
+
+.presentation:hover {
+  animation-name: volvermasgrande;
+  animation-duration: 0.8s;
+  backface-visibility: hidden;
+}
+
+
+@keyframes volvermasgrande {
+  0%{transform: scale(1);}
+  50% {
+    transform: scale(1.15);
+    backface-visibility: hidden;
+  }
+  100% {transform: scale(1);}
+}
+
+@media screen and (min-width: 1000px) {
+  .container main {
+    flex-direction: row;
+    width: 90vw;
+    justify-content: space-between;
+    height: 25vh;
+  }
+
+  .titlePlusIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+  }
+
+  .titlePlusIcon h1{
+    font-size: 3rem;
+  }
+
+  main p {
+    width: 60%;
+    font-size: 2.5rem;
+  }
+  .arrowDown {
+    display: none;
+  }
+
+  .arrowRight {
+    display: inline;
+    font-size: 2rem;
+  }
+
+  .me h3 {
+    font-size: 2.5rem;
+  }
+
+  .me p {
+    font-size: 2.2rem;
+  }
+}
