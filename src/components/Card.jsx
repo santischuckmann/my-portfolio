@@ -14,9 +14,9 @@ const Card = ({title, image, stack, sourceCode, liveView}) => {
       </ul>
       <div className='button'>
       <button><a href={sourceCode}>Source code</a></button>
-      <button><a target= "_blank" href={liveView}>Live view</a></button>
+      <button><a target= "_blank" rel="noreferrer" href={liveView}>Live view</a></button>
     </div>
-    <style jsx>
+    {/* <style jsx>
       {`
       .card {
         display: flex;
@@ -28,8 +28,10 @@ const Card = ({title, image, stack, sourceCode, liveView}) => {
         heigth: 50rem;
       }      
       img {
-        height: 20rem;
-        width: 20rem;
+        height: auto;
+        width: width;
+        max-height: 30rem;
+        max-width: 30rem;
       }
       h4 {
         margin: 0;
@@ -50,10 +52,16 @@ const Card = ({title, image, stack, sourceCode, liveView}) => {
         padding: 0.8rem;
         font-weight: 500;
         outline: 0.5px solid var(--font-color);
+        transition: 0.3s all;
+      }
+
+      button:hover {
+        background-color: var(--font-color);
+        color: var(--main-color)
       }
       `
       }
-    </style>
+    </style> */}
     </div>
   )
 }

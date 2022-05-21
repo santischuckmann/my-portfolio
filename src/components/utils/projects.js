@@ -33,16 +33,15 @@ export const projects = [
   },
   {
     id: 3,
-    title: "COVID API in plain JavaScript",
-    image: "/covidapi.png",
+    title: "Layout of a single page service",
+    image: "/marketing-services.png",
     stack : 
     [
-      {id: 1, tec: "JavaScript"},
-      {id: 2, tec: "CSS"},
-      {id: 3, tec: "HTML"}
+      {id: 1, tec: "CSS"},
+      {id: 2, tec: "HTML"}
     ]  ,
-    sourceCode: "https://github.com/santischuckmann/covid-api",
-    liveView: "https://santischuckmann.github.io/covid-api/"
+    sourceCode: "https://github.com/santischuckmann/marketing-services-sp",
+    liveView: "https://santischuckmann.github.io/marketing-services-sp/"
   },
   {
     id: 4,

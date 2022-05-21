@@ -2,7 +2,7 @@ import React from 'react'
 import { BsFillArrowDownCircleFill,BsFillArrowRightCircleFill  } from '../../node_modules/react-icons/bs'
 import Cards from './Cards'
 import TechSection from './TechSection'
-import css from '../body.css'
+
 
 const Body = () => {
   return (
