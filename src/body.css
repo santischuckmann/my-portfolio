@@ -50,8 +50,8 @@
 .card img {
   height: auto;
   width: auto;
-  max-height: 40rem;
-  max-width: 40rem;
+  max-height: 60rem;
+  max-width: 60rem;
   border-radius: 5px
 }
 .card h4 {
@@ -144,7 +144,7 @@
   }
 
   .card img {
-    max-width: 60rem;
-    max-height: 60rem;
+    max-width: 40rem;
+    max-height: 40rem;
   }
 }
