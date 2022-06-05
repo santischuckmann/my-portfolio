@@ -1,6 +1,21 @@
 export const projects = [
   {
     id: 1,
+    title: "System for an online interviewing process",
+    image: "/webrtc-implementation.png",
+    stack : 
+     [
+      {id: 1, tec: "TypeScript"},
+      {id: 2, tec: "Web-RTC API"},
+      {id: 3, tec: "React.js"},
+      {id: 4, tec: "CSS"},
+      {id: 5, tec: "HTML"},
+     ]  ,
+    sourceCode: "https://github.com/santischuckmann/webrtc-implementation",
+    liveView: "https://main--online-interviewing-system.netlify.app/",
+  },
+  {
+    id: 1,
     title: "Building my first Full Stack App",
     image: "/crudrestproject.png",
     stack : 
