@@ -15,7 +15,7 @@ export const projects = [
     liveView: "https://main--online-interviewing-system.netlify.app/",
   },
   {
-    id: 1,
+    id: 2,
     title: "Building my first Full Stack App",
     image: "/crudrestproject.png",
     stack : 
@@ -33,7 +33,7 @@ export const projects = [
     liveView: "https://santischuckmann.github.io/consuming-todo-api-with-react/",
   },
   {
-    id: 2,
+    id: 3,
     title: "React App using Tours API",
     image: "/toursproject.png",
     stack : 
@@ -47,7 +47,7 @@ export const projects = [
     liveView: "https://santischuckmann.github.io/tours-api/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Layout of a single page service",
     image: "/marketing-services.png",
     stack : 
@@ -58,17 +58,4 @@ export const projects = [
     sourceCode: "https://github.com/santischuckmann/marketing-services-sp",
     liveView: "https://santischuckmann.github.io/marketing-services-sp/"
   },
-  {
-    id: 4,
-    title: "Making a videogame with Python",
-    image: "/pythongame.png",
-    stack : 
-     [
-      {id: 1, tec: "Python"},
-      {id: 2, tec: "Pygame"}
-     ]  ,
-    sourceCode: "https://github.com/santischuckmann/pythongame/tree/master",
-    liveView: "https://github.com/santischuckmann/pythongame/tree/master",
-  },
-
 ]
