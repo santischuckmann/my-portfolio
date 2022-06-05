@@ -59,7 +59,7 @@ const TechSection = () => {
 
         .techStack {
           display: grid;
-          grid-template-rows: 80px 200px;
+          grid-template-rows: 80px 250px;
           grid-template-columns: 1fr 1fr;
           width: 80vw;      
           grid-gap: 0;
@@ -83,7 +83,8 @@ const TechSection = () => {
         }
 
         .techLearning {
-          grid-row: 1 / 3;
+          align-self: flex-start;
+          grid-row: 2 / 3;
           grid-column: 2 / 3;
         }
 
