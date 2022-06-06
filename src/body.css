@@ -50,8 +50,8 @@
 .card img {
   height: auto;
   width: auto;
-  max-height: 40rem;
-  max-width: 40rem;
+  max-height: 30rem;
+  max-width: 30rem;
   border-radius: 5px
 }
 .card h4 {
@@ -91,6 +91,31 @@
 .card button:hover {
   background-color: var(--font-color);
   color: var(--main-color)
+}
+
+.meTech {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.meTech .doI {
+  width: 95%
+}
+.meTech h3, .meTech h4 {
+  margin: 0;
+}
+
+.meTech .span {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.techCanDeliver, .techLearning {
+  align-items: flex-start;
 }
 
 
@@ -144,7 +169,45 @@
   }
 
   .card img {
-    max-width: 50rem;
     max-height: 50rem;
+    max-width: 50rem;
+  }
+
+  .meTech h3 {
+    font-size: 2.5rem;
+  }
+
+  .meTech p {
+    font-size: 2.2rem
+  }
+
+  .meTech .techStack {
+    display: grid;
+    grid-template-rows: 80px 250px;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;      
+    grid-gap: 0;
+    font-size: 2.2rem;
+  }
+
+  .meTech .canDeliver {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .meTech .techCanDeliver {
+    grid-row: 1 / 3;
+    grid-column: 1;
+  }
+
+  .meTech .learning {
+    grid-row: 1;
+    grid-column: 2 / 3;
+  }
+
+  .meTech .techLearning {
+    align-self: flex-start;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
   }
 }

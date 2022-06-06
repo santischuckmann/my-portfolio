@@ -37,14 +37,14 @@ const TechSection = () => {
         gap: 2rem;
       }
       
-      .doI {
+      .meTech .doI {
         width: 95%
       }
-      h3 {
+      .meTech h3 {
         margin: 0;
       }
       
-      .span {
+      .meTech.span {
         font-size: 2rem;
       }
       
@@ -57,7 +57,7 @@ const TechSection = () => {
           font-size: 2.2rem
         }
 
-        .techStack {
+        .meTech .techStack {
           display: grid;
           grid-template-rows: 80px 250px;
           grid-template-columns: 1fr 1fr;
@@ -66,24 +66,24 @@ const TechSection = () => {
           font-size: 2.2rem;
         }
 
-        .canDeliver {
+        .meTech .canDeliver {
           grid-row: 1;
           grid-column: 1;
         }
         }
 
-        .techCanDeliver {
+        .meTech .techCanDeliver {
           grid-row: 1 / 3;
           grid-column: 1;
         }
 
-        .learning {
+        .meTech .learning {
           grid-row: 1;
           grid-column: 2 / 3;
         }
 
-        .techLearning {
-          align-self: flex-start;
+        .meTech .techLearning {
+          align-self: flex-start
           grid-row: 2 / 3;
           grid-column: 2 / 3;
         }
