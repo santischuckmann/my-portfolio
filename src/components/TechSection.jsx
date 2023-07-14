@@ -1,27 +1,41 @@
 import React from 'react'
 
+const deliverableTechnologies = [
+  'Node.js',
+  '.NET Core',
+  'Microsoft SQL Server',
+  'React.js',
+  'GraphQL',
+  'TypeScript',
+  'REST APIs',
+]
+
+const almostDeliverableTechnologies = [
+  'Microservices',
+  'OpenShift',
+  'Jenkins',
+]
+
 const TechSection = () => {
   return (
     <>
     <section className='meTech'>
       <h3>Do I know anything?</h3>
-      <p className='doI'> Actually, I would say otherwise. My greatest virtue is that i am not able to grasp on the idea of being "totally" skillful at something. Luckily, this haven't stopped me from building and working on projects, despite knowing I can always learn something new. Being totally honest...</p> 
+      <p className='doI'> I have worked with brilliant people in different teams and work enviroments. I have extended an UI library, while I also worked refactoring tons of backend code</p> 
+      <p className='doI'> I consider myself a software developer, because I have read and learnt so much about the foundations of this profession that I can work well anywhere in the spectrum of web development.</p> 
+      <p className='doI'> If you ask me, the skill that I am trying to master is microservices, especially in APIs written in .NET Core. I could also build the UI if the frontend dev is on vacation ;)</p> 
       <div className = "techStack">
       <h4 className='canDeliver'>I can deliver in this skills </h4> 
       <ul className='techCanDeliver'>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript(ES6)</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>REST API</li>
+        {deliverableTechnologies.map((tech, index) => (
+          <li key={`${index}.${tech}`}>{tech}</li>
+        ))}
       </ul>
       <h4 className='learning'>I am learning these skills. Hope seeing these up there 😁</h4>
       <ul className='techLearning'>
-        <li>TypeScript</li>
-        <li>MongoDB</li>
-        <li>MySQL</li>
+        {almostDeliverableTechnologies.map((tech, index) => (
+            <li key={`${index}.${tech}`}>{tech}</li>
+          ))}
       </ul>
       </div>
       <span className = "span">Is not so difficult to see that what I want, what I need is... to become a <b>Full Stack Developer</b> in JavaScript.</span>

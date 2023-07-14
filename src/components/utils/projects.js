@@ -14,24 +14,24 @@ export const projects = [
     sourceCode: "https://github.com/santischuckmann/webrtc-implementation",
     liveView: "https://main--online-interviewing-system.netlify.app/",
   },
-  {
-    id: 2,
-    title: "Building my first Full Stack App",
-    image: "/crudrestproject.png",
-    stack : 
-     [
-      {id: 1, tec: "Node.js"},
-      {id: 2, tec: "Express.js"},
-      {id: 3, tec: "MySQL"},
-      {id: 4, tec: "Sequelize"},
-      {id: 4, tec: "React.js"},
-      {id: 3, tec: "JavaScript"},
-      {id: 5, tec: "CSS"},
-      {id: 6, tec: "HTML"}
-     ]  ,
-    sourceCode: "https://github.com/santischuckmann",
-    liveView: "https://santischuckmann.github.io/consuming-todo-api-with-react/",
-  },
+  // {
+  //   id: 2,
+  //   title: "Building my first Full Stack App",
+  //   image: "/crudrestproject.png",
+  //   stack : 
+  //    [
+  //     {id: 1, tec: "Node.js"},
+  //     {id: 2, tec: "Express.js"},
+  //     {id: 3, tec: "MySQL"},
+  //     {id: 4, tec: "Sequelize"},
+  //     {id: 4, tec: "React.js"},
+  //     {id: 3, tec: "JavaScript"},
+  //     {id: 5, tec: "CSS"},
+  //     {id: 6, tec: "HTML"}
+  //    ]  ,
+  //   sourceCode: "https://github.com/santischuckmann",
+  //   liveView: "https://santischuckmann.github.io/consuming-todo-api-with-react/",
+  // },
   {
     id: 3,
     title: "React App using Tours API",
